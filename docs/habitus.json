@@ -1,0 +1,92 @@
+{
+  "assessment_id": "habitus_v1",
+  "product": "FlowFinder",
+  "title": "Mapeamento de Hábitos e Rotinas",
+  "estimated_minutes": "3 a 5",
+  "instructions": "Leia as situações de forma rápida e instintiva. Não pense no que seria a resposta ideal — responda como você realmente age na prática.",
+  "choice_rules": {
+    "primary": { "key": "X", "weight": 2, "label": "Mais se parece comigo" },
+    "secondary": { "key": "Y", "weight": 1, "label": "Também se aproxima" },
+    "exclusive": true
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "index": 1,
+      "block": 1,
+      "title": "Imprevisto no plano de lazer ou na rotina",
+      "scenario": "Imagine que você organizou um fim de semana ou uma atividade pessoal, mas na última hora o plano deu errado (o lugar fechou, o tempo mudou ou cancelaram).",
+      "options": [
+        { "code": "A", "text": "Fico chateado(a), mas aproveito o tempo livre para colocar em dia tarefas acumuladas e organizar o que estava pendente." },
+        { "code": "B", "text": "Não me dou por vencido(a); pego o celular na mesma hora, pesquiso três alternativas novas na região e dou um jeito de salvar o momento." },
+        { "code": "C", "text": "Prefiro não me estressar; cancelo tudo, fico em casa descansando e deixo para remarcar depois com calma." },
+        { "code": "D", "text": "Analiso o que causou o erro para garantir que, na próxima vez, eu não caia na mesma falha de planejamento." }
+      ]
+    },
+    {
+      "id": "q2",
+      "index": 2,
+      "block": 1,
+      "title": "Assumindo um grande objetivo pessoal",
+      "scenario": "Quando você assume um compromisso pessoal desafiador (como juntar uma grana para algo grande, uma rotina de treinos pesados ou estudar para uma prova), como você lida com o processo?",
+      "options": [
+        { "code": "E", "text": "Eu coloco uma meta alta e me cobro diariamente para ver o progresso rápido; adoro acompanhar os números e os resultados subindo." },
+        { "code": "F", "text": "Vou em um ritmo bem tranquilo e constante; metas muito rígidas só servem para gerar ansiedade e desgaste desnecessário." },
+        { "code": "G", "text": "Primeiro avalio se tenho tempo livre e recursos reais suficientes para bancar esse objetivo sem me atrapalhar no resto." },
+        { "code": "H", "text": "O mais importante é manter o bem-estar e o equilíbrio do dia a dia; se o objetivo trouxer muito estresse, prefiro flexibilizar." }
+      ]
+    },
+    {
+      "id": "q3",
+      "index": 3,
+      "block": 1,
+      "title": "Lidando com uma negativa",
+      "scenario": "Você encontrou algo que queria muito negociar com um fornecedor particular ou em um anúncio, mas a outra pessoa disse um não seco ou recusou sua proposta de preço de primeira.",
+      "options": [
+        { "code": "I", "text": "Sem problemas, o mercado está cheio de opções; parto para o próximo anúncio imediatamente." },
+        { "code": "J", "text": "Acho que a pessoa não entendeu o meu lado ou o valor do que propus; tento argumentar mais um pouco ou fazer uma contraproposta criativa." },
+        { "code": "K", "text": "Se a pessoa foi irredutível, insistir mais pode virar chato ou gerar atrito desnecessário; melhor respeitar e procurar outro lugar." },
+        { "code": "L", "text": "Provavelmente fui eu que não pesquisei direito o valor de mercado antes de falar; na próxima, vou melhor preparado(a)." }
+      ]
+    },
+    {
+      "id": "q4",
+      "index": 4,
+      "block": 2,
+      "title": "Negociando algo de valor em um impasse",
+      "scenario": "Você está vendendo ou negociando algo particular (um bem ou um serviço) e percebe que a outra pessoa está totalmente desinformada sobre um pequeno detalhe que beneficiaria muito você no fechamento rápido.",
+      "options": [
+        { "code": "A", "text": "Aproveito a oportunidade para fechar logo o negócio; em negociação, quem vacila perde a vantagem.", "internal_tag": "Perfil Transacional / Menor rigor ético" },
+        { "code": "B", "text": "Alerto a pessoa sobre o detalhe antes de fechar; prefiro ganhar o negócio na conversa e na confiança do que levando vantagem.", "internal_tag": "Ética Ativa / Transparência" },
+        { "code": "C", "text": "Fico em cima do muro, não comento nada para não atrapalhar, mas se ela perguntar diretamente, eu respondo a verdade.", "internal_tag": "Ética Passiva / Omissão Cautelosa" },
+        { "code": "D", "text": "Paro a negociação na hora para desenhar um contrato bem detalhado, garantindo que ninguém saia achando que perdeu.", "internal_tag": "Perfil Técnico / Focado em Regras Rigorosas" }
+      ]
+    },
+    {
+      "id": "q5",
+      "index": 5,
+      "block": 2,
+      "title": "Quebrando o gelo com desconhecidos",
+      "scenario": "Você se encontrou em um evento social ou fila longa onde precisa passar um tempo conversando com pessoas que nunca viu na vida.",
+      "options": [
+        { "code": "E", "text": "Prefiro ficar na minha, mexendo no celular ou observando o ambiente, pois puxar conversa com estranho me dá preguiça.", "internal_tag": "Baixa Empatia Social / Fechado" },
+        { "code": "F", "text": "Bato papo com facilidade, acho um assunto em comum rápido (falo do clima, do lugar ou de alguma curiosidade) e faço a pessoa rir nos primeiros minutos.", "internal_tag": "O Bom de Papo Nativo / Alta Fluência" },
+        { "code": "G", "text": "Sou educado(a), respondo o que me perguntam com simpatia, mas deixo que os outros puxem o assunto principal.", "internal_tag": "Cortês Reativo / Amigável mas Passivo" },
+        { "code": "H", "text": "Analiso o perfil das pessoas ao redor para entender quem tem interesses parecidos com os meus antes de falar qualquer coisa.", "internal_tag": "Empatia Analítica / Calculista" }
+      ]
+    },
+    {
+      "id": "q6",
+      "index": 6,
+      "block": 2,
+      "title": "Liderando uma conversa difícil ou reclamação",
+      "scenario": "Um prestador de serviço ou um estabelecimento errou feio no atendimento com você (exemplo: atrasou muito ou entregou algo errado).",
+      "options": [
+        { "code": "I", "text": "Faço um escândalo e exijo meus direitos com firmeza na mesma hora para ninguém achar que pode me passar para trás.", "internal_tag": "Perfil Agressivo / Conflituoso" },
+        { "code": "J", "text": "Converso com a pessoa com tom firme, mas com muita educação e simpatia; mostro o erro de forma clara e saio de lá com o problema resolvido e a pessoa ainda me respeitando.", "internal_tag": "Negociação Persuasiva / Inteligência Emocional" },
+        { "code": "K", "text": "Fico muito bravo(a) por dentro, mas evito reclamar para não criar atrito chato; prefiro ir embora e nunca mais voltar.", "internal_tag": "Evitador de Conflito / Baixa Resiliência" },
+        { "code": "L", "text": "Exijo falar direto com o gerente ou responsável para registrar uma reclamação formal e seguir o protocolo rígido da empresa.", "internal_tag": "Perfil Burocrático / Formal" }
+      ]
+    }
+  ]
+}
